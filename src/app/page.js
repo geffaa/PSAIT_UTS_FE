@@ -25,9 +25,11 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-white text-black">
+    <main className="flex flex-col items-center justify-between p-48 bg-white text-black">
+      <h1 className="text-3xl font-bold">UTS PSAIT</h1>
+      <h2 className="text-2xl">Yodhimas Geffananda</h2>
     <div className="relative overflow-x-auto shadow-lg sm:rounded-md">
-    <div className="flex justify-end mb-2">
+    <div className="flex justify-end mb-4">
       <a href="/AddData" className="bg-green-600 text-white px-4 py-2 rounded">Tambah Data</a>
     </div>
     <table className="w-full text-sm text-left rtl:text-right text-gray-500 ">
